@@ -1,0 +1,45 @@
+{
+  "sphere_movement": {
+    "target_position": { "x": -5.5, "y": 0.0, "z": 0.0 },
+    "duration": 2.0,
+    "ease": "Linear"
+  },
+  "cube_rotation": {
+    "rotation_angle": { "x": 0.0, "y": 360.0, "z": 0.0 },
+    "duration": 3.0,
+    "ease": "Linear"
+  },
+  "capsule_scaling": {
+    "target_scale": { "x": 2.0, "y": 2.0, "z": 2.0 },
+    "duration": 1.5,
+    "ease": "InOutQuad"
+  },
+  "complex_transformer": {
+    "target_position": { "x": 1.5, "y": 3.0, "z": 0.0 },
+    "rotation_angle": { "x": 180.0, "y": 180.0, "z": 0.0 },
+    "target_scale": { "x": 0.5, "y": 0.5, "z": 0.5 },
+    "duration": 2.5,
+    "ease": "InOutSine"
+  },
+  "color_changer": {
+    "target_color": { "r": 1.0, "g": 0.0, "b": 0.0, "a": 1.0 },
+    "duration": 2.0,
+    "ease": "Linear",
+    "color_property": "_BaseColor"
+  },
+  "text_manipulator": {
+    "step_duration": 2.0,
+    "base_text": "Original",
+    "replaced_text": "Replaced!",
+    "appended_suffix": " + Added",
+    "scrambled_text": "Final Secret Message",
+    "scramble_mode": "All"
+  },
+  "scene_layout": {
+    "sphere_position": { "x": -7.5, "y": 0.0, "z": 0.0 },
+    "cube_position": { "x": -4.5, "y": 0.0, "z": 0.0 },
+    "capsule_position": { "x": -1.5, "y": 0.0, "z": 0.0 },
+    "complex_cube_position": { "x": 1.5, "y": 0.0, "z": 0.0 },
+    "color_object_position": { "x": 4.5, "y": 0.0, "z": 0.0 }
+  }
+}
